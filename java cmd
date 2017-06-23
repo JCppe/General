@@ -1,0 +1,7 @@
+C:> cd \prog\java_txt
+C:> set path=%path%;C:\Program Files\Java\jdk1.8.0_131\bin
+C:> javac <insert_file_Name_here>.java
+C:> java <insert_file_name_here>
+
+
+Disclamer: class name and file name must match
