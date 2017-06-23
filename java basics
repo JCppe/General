@@ -24,8 +24,39 @@ CLASS
 
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("Hello");
-    }
+//initial class variables
+    private String name;
+    private int indexNum;
+    private double numOne;
+    private double numTwo;
+    private double numThree;
 }
+
+
+CONSTRUCTOR
+
+public Main(String nameMain, String purposeMain, int indexNum, double numOneMain, double numTwoMain, double numThreeMain) {
+        name = nameMain;
+        purpose = purposeMain;
+        numOne = numOneMain;
+        numTwo = numTwoMain;
+        numThree = numThreeMain;
+        }
+
+
+OBJECT
+
+Main myMain = new Main("First", 1, 1,2,3);
+
+METHOD
+
+
+FOR LOOP
+
+double[] mainArray = {myMain.numOne, myMain.numTwo, myMain.numThree};
+
+for (int i=0; i < mainArray.length; i++){
+    System.out.println(mainArray[i]);
+}
+
 
