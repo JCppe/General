@@ -16,3 +16,16 @@ Interface: FooBar
 Method: fooBar
 Variables: fooBar
 Constants: FOO_BAR
+
+
+##3: Basic Frames:
+
+CLASS
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
+
